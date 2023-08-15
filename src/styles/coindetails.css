@@ -1,0 +1,135 @@
+.coin-details-container
+{
+    height: 86vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    /* align-items: center;
+    justify-content: center;
+    overflow:auto; */
+}
+
+
+.chart-container
+{   
+    margin: 1rem auto;
+    width: 80%;
+    /* margin: 0 auto; */
+    height: 80%;
+    /* border: 2px solid purple; */
+}
+
+.chart-container > p
+{
+    color: #2D3748;
+    font-family: 'Montserrat',sans-sarif;
+    font-weight: bolder;
+}
+
+.btn-array
+{
+    /* border: 2px solid green; */
+    margin: 1rem;
+    justify-content: space-evenly;
+    height: 3rem;
+}
+
+.btn-array-element
+{
+    /* border: 2px solid yellow; */
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 0.2rem;
+    background-color:#38B2AC;
+    color: #fff;
+    height: 80%;
+    width: 6%;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn-array-element:hover
+{
+    color: #38B2AC;
+    background-color: #fff;
+}
+
+.btn-array-element:focus
+{
+    color: #38B2AC;
+    background-color: #fff;
+}
+
+.modal-button-one
+{
+    background-color: #E53E3E;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+    font-family: sans-sarif;
+    font-weight: bolder;
+}
+
+.modal-button-one:hover
+{
+    scale: 1.2;
+}
+
+
+
+.modal-card
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+}
+
+
+
+
+/* .coin-about-conatiner
+{
+    display: block;
+    float: right;
+    width: 40%;
+    margin: 8rem auto;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid orangered;
+
+}
+
+.coin-about-conatiner > img
+{
+    height: 2rem;
+    width: 2rem;
+    object-fit: contain;
+}
+
+.arrow-up
+{
+    border: solid green;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.arrow-down
+{
+    border: solid red;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+} */

@@ -1,0 +1,16 @@
+.coins-container
+{
+    height: 87vh;
+    width: 100vw;
+    background-color: black;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+    overflow:auto;
+}
+
+.coins-container a {
+    text-decoration: none;
+}

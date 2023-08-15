@@ -1,0 +1,11 @@
+.footer-container
+{
+    height: 7vh;
+    width: 100%;
+    /* border: 2px solid purple; */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #a0a0a0;
+}

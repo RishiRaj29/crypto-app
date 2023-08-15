@@ -1,0 +1,13 @@
+.loader-container
+{
+    height: 83vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ant-spin-dot-item
+{
+    background-color: black !important;
+}

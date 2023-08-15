@@ -1,0 +1,46 @@
+.card
+{
+    /* border: 2px solid orange; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    width: 15rem;
+    background-color: #fff;
+    margin: 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+
+.card:hover
+{
+    scale: 1.1;
+}
+
+.card > img
+{
+    object-fit: contain;
+    height: 4rem;
+    width: 4rem;
+}
+
+.card > h2
+{
+    color: #1A202C;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.p-name
+{
+    color: #718096;
+}
+
+.p-price
+{
+    color: #2D3748;
+    font-weight: bolder;
+    font-size: 1.0rem;
+}
+

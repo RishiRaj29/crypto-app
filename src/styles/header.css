@@ -1,0 +1,44 @@
+.header-container
+{
+    height: 7vh;
+    width: 100vw;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.header-content
+{
+    display: flex;
+    justify-content:space-evenly;
+    color:#fcfcfc;
+    /* border: 2px solid yellowgreen; */
+    width: 100%;
+}
+
+.header-btn
+{
+    /* border: 2px solid khaki; */
+    height: 100%;
+    width: 20%;
+}
+
+.header-btn span
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color:#a0a0a0;
+    /* border: 2px solid red; */
+    height: 100%;
+    font-size: 2rem;
+    font-family: 'Montserrat',sans-sarif;
+    font-weight: bold;
+}
+
+span:hover
+{
+    color:#fcfcfc;
+}
